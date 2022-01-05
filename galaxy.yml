@@ -1,0 +1,6 @@
+namespace: "ajc ansible"
+name: "wordpress, docker"
+version: "1.0.12"
+readme: "README.md"
+authors:
+    - "TNT";

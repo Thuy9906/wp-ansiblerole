@@ -1,0 +1,16 @@
+---
+# defaults file for wp-role
+# Docker variables
+wp_network: wordpress
+mysql_container_name: wp_db
+wordpress_container_name: wordpress
+
+# mysql connection
+mysql_root_password: password
+mysql_database: wp_db
+mysql_user: root
+mysql_password: root
+mysql_dir: /wordpress/db
+
+# Exposed port
+wordpress_port: 8080
